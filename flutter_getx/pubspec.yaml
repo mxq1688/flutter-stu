@@ -1,0 +1,38 @@
+name: flutter_getx
+description: "快速开发Flutter框架 - GetX 全家桶"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # GetX 全家桶 (状态管理 + 路由 + 依赖注入)
+  get: ^4.7.2
+  
+  # 网络请求
+  dio: ^5.4.0
+  
+  # 本地存储
+  get_storage: ^2.1.1
+  
+  # UI适配
+  flutter_screenutil: ^5.9.0
+  
+  # 工具
+  logger: ^2.0.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
